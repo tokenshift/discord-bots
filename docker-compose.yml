@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  discord-loc:
+    build: ./discord-loc
+    env_file: ./discord-loc/.env
+    volumes:
+      - ./volumes/discord-loc:/data
+  discord-mistbot:
+    build: ./discord-mistbot
+    env_file: ./discord-mistbot/.env
+    volumes:
+      - ./volumes/discord-mistbot:/data
