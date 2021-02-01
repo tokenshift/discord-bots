@@ -1,0 +1,6 @@
+[submodule "discord-loc"]
+	path = discord-loc
+	url = git@github.com:tokenshift/discord-loc.git
+[submodule "discord-mistbot"]
+	path = discord-mistbot
+	url = git@github.com:tokenshift/discord-mistbot.git
