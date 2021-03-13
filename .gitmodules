@@ -4,3 +4,6 @@
 [submodule "discord-mistbot"]
 	path = discord-mistbot
 	url = git@github.com:tokenshift/discord-mistbot.git
+[submodule "discord-mockingbird"]
+	path = discord-mockingbird
+	url = git@github.com:tokenshift/discord-mockingbird.git

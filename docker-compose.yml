@@ -10,4 +10,8 @@ services:
     env_file: ./discord-mistbot/.env
     volumes:
       - ./volumes/discord-mistbot:/data
-
+  discord-mockingbird:
+    image: tokenshift/discord-mockingbird:latest
+    env_file: ./discord-mockingbird/.env
+    volumes:
+      - ./volumes/discord-mockingbird:/data
